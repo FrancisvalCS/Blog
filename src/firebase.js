@@ -19,6 +19,7 @@ class Firebase{
   constructor(){
     // Initialize Firebase
      app.initializeApp(firebaseConfig)
+     this.app = app.database();
      /*if(!firebase.apps.length){
        firebase.initializeApp(firebaseConfig);
      }*/
