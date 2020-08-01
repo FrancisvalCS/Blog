@@ -3,6 +3,7 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import './global.css';
 
 import Home from './components/Home';
+import Header from './components/Header';
 
 
 class App extends Component{
